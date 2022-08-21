@@ -116,7 +116,7 @@ preinfo() {
 	echo "***************************** SpeedTest 一键测速 ****************************************"
 	echo "               节点更新： 2022/08/21  | 脚本更新: 2022/08/21"
 	
-	echo "使用方法： bash <(curl -Lso- https://github.com/doidea/speedtest/releases/download/v1.1/speedtest.sh)"
+	echo "使用方法： bash <(curl -Lso- https://github.com/doidea/speedtest/releases/download/v1.2/speedtest.sh)"
 
 	echo "****************************************************************************************"
 }
