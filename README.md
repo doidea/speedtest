@@ -3,5 +3,5 @@
 
 #### 使用方法
 ```
-bash <(curl -Lso- https://github.com/doidea/speedtest/releases/download/v1.1/speedtest.sh)
+bash <(curl -Lso- https://github.com/doidea/speedtest/releases/download/v1.2/speedtest.sh)
 ```
