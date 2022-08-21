@@ -79,8 +79,6 @@ checkwget() {
 checkspeedtest() {
 	if  [ ! -e './speedtest-cli/speedtest' ]; then
 		echo "正在安装 Speedtest-cli"
-		# wget --no-check-certificate -qO speedtest.tgz https://bintray.com/ookla/download/download_file?file_path=ookla-speedtest-1.0.0-$(uname -m)-linux.tgz
-		# wget --no-check-certificate -qO speedtest.tgz https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-$(uname -m)-linux.tgz
 		# 安装v1.2.0版本
 		wget --no-check-certificate -qO speedtest.tgz https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-$(uname -m).tgz
 	fi
@@ -118,7 +116,7 @@ preinfo() {
 	echo "***************************** SpeedTest 一键测速 ****************************************"
 	echo "               节点更新： 2022/08/21  | 脚本更新: 2022/08/21"
 	
-	echo "使用方法： bash <(curl -Lso- https://github.com/doidea/speedtest/releases/download/v1.0/speedtest.sh)"
+	echo "使用方法： bash <(curl -Lso- https://github.com/doidea/speedtest/releases/download/v1.1/speedtest.sh)"
 
 	echo "****************************************************************************************"
 }
